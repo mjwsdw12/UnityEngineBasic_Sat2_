@@ -1,0 +1,16 @@
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array2Dimension\bin\Debug\net5.0\Array2Dimension.exe
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array2Dimension\bin\Debug\net5.0\Array2Dimension.deps.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array2Dimension\bin\Debug\net5.0\Array2Dimension.runtimeconfig.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array2Dimension\bin\Debug\net5.0\Array2Dimension.runtimeconfig.dev.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array2Dimension\bin\Debug\net5.0\Array2Dimension.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array2Dimension\bin\Debug\net5.0\ref\Array2Dimension.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array2Dimension\bin\Debug\net5.0\Array2Dimension.pdb
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array2Dimension\obj\Debug\net5.0\Array2Dimension.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array2Dimension\obj\Debug\net5.0\Array2Dimension.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array2Dimension\obj\Debug\net5.0\Array2Dimension.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array2Dimension\obj\Debug\net5.0\Array2Dimension.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array2Dimension\obj\Debug\net5.0\Array2Dimension.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array2Dimension\obj\Debug\net5.0\Array2Dimension.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array2Dimension\obj\Debug\net5.0\ref\Array2Dimension.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array2Dimension\obj\Debug\net5.0\Array2Dimension.pdb
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array2Dimension\obj\Debug\net5.0\Array2Dimension.genruntimeconfig.cache

@@ -26,7 +26,7 @@ namespace Variables
 
         // 초기화 : 변수 선언과 동시에 값을 넣는것
         uint lv = 1; // int : 4 byte 크기의 부호가 있는 정수 자료형 -2^31 ~ 2^31 - 1
-                 // uint : unsigend int 4byte 크기의 부호가 없는 정수 자료형 0 ~ 2^32
+        // uint : unsigend int 4byte 크기의 부호가 없는 정수 자료형 0 ~ 2^32
         float exp; // float : 4byte 크기의 실수
         // double : 8byte 크기의 실수
         bool isAvailable; // bool : 논리형, true 와 false 로 구분함, 1byte

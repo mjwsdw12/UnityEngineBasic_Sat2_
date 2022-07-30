@@ -28,6 +28,7 @@ namespace Methods
         static void PrintHelloWrld()
         {
             Console.WriteLine("Hello World!");
+            return;
         }
 
         static void PrintString(string target)

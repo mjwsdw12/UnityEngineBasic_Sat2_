@@ -9,6 +9,23 @@ namespace ClassUsageBasic
             Console.WriteLine(new SwordMan().lv);
             SwordMan swordMan = new SwordMan(); // new 키워드 : (참조형식에 대해서) 힙영역에 동적할당하는 키워드
             swordMan.SayName(); // .연산자 : 멤버 접근 연산자
+
+            int a = 3;
+            Test(a);
+            Console.WriteLine(a);
+
+            Test(swordMan);
+            Console.WriteLine(swordMan.lv); 
+        }
+
+        static void Test(SwordMan swordMan)
+        {
+            swordMan.lv = 5;
+        }
+
+        static void Test(int index)
+        {
+            index = 5;
         }
     }
 
@@ -24,7 +41,7 @@ namespace ClassUsageBasic
     // public :  외부 접근 가능
     // protected : 자식객체만 접근 가능
     // internal : 동일 어셈블링에서 접근가능
-    public class SwordMan
+    class SwordMan
     {
         public int lv;
         private float exp;
@@ -35,7 +52,7 @@ namespace ClassUsageBasic
         // 생성자와 소멸자도 멤버함수
 
         // 생성자
-        // 객체를 힙영역에 할당
+        // 객체를 생성하는 함수
         public SwordMan()
         {
 

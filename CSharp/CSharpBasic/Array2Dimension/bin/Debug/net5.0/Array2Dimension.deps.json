@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Array2Dimension/1.0.0": {
+        "runtime": {
+          "Array2Dimension.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Array2Dimension/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
