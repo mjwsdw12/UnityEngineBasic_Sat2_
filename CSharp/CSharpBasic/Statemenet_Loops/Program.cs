@@ -34,7 +34,7 @@ namespace Statemenet_Loops
             {
                 Console.WriteLine(tmpArr[count]);
                 count++;
-            } while (count < 0);
+            } while (count < 0); // (자주 사용 X)
 
             // for (인덱스용 변수 초기화; 반복 조건문; 루프 한번 실행되고 나서 수행할 연산)
             // { }

@@ -13,3 +13,4 @@ C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array\o
 C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array\obj\Debug\net5.0\ref\Array.dll
 C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array\obj\Debug\net5.0\Array.pdb
 C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array\obj\Debug\net5.0\Array.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Array\obj\Debug\net5.0\Array.csproj.AssemblyReference.cache

@@ -1,0 +1,15 @@
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\bin\Debug\net5.0\ClassInheritanceAndPolymorphism.exe
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\bin\Debug\net5.0\ClassInheritanceAndPolymorphism.deps.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\bin\Debug\net5.0\ClassInheritanceAndPolymorphism.runtimeconfig.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\bin\Debug\net5.0\ClassInheritanceAndPolymorphism.runtimeconfig.dev.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\bin\Debug\net5.0\ClassInheritanceAndPolymorphism.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\bin\Debug\net5.0\ref\ClassInheritanceAndPolymorphism.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\bin\Debug\net5.0\ClassInheritanceAndPolymorphism.pdb
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\obj\Debug\net5.0\ClassInheritanceAndPolymorphism.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\obj\Debug\net5.0\ClassInheritanceAndPolymorphism.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\obj\Debug\net5.0\ClassInheritanceAndPolymorphism.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\obj\Debug\net5.0\ClassInheritanceAndPolymorphism.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\obj\Debug\net5.0\ClassInheritanceAndPolymorphism.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\obj\Debug\net5.0\ref\ClassInheritanceAndPolymorphism.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\obj\Debug\net5.0\ClassInheritanceAndPolymorphism.pdb
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\obj\Debug\net5.0\ClassInheritanceAndPolymorphism.genruntimeconfig.cache

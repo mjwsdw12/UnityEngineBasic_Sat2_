@@ -55,7 +55,32 @@
       "ProjectGuid": "d73de369-9983-4cc0-8328-a4a2b1023e49",
       "DisplayName": "Statemenet_Loops",
       "ColorIndex": 9
+    },
+    "a1be2c5b-43e0-4047-be06-d8bf40e8fac1": {
+      "ProjectGuid": "a1be2c5b-43e0-4047-be06-d8bf40e8fac1",
+      "DisplayName": "Statement_SwitchCase",
+      "ColorIndex": 10
+    },
+    "518e1111-2724-4338-a29e-761a60357fad": {
+      "ProjectGuid": "518e1111-2724-4338-a29e-761a60357fad",
+      "DisplayName": "Statement_SwichCase",
+      "ColorIndex": 11
+    },
+    "431f711b-2f0d-4279-956b-76dddb933003": {
+      "ProjectGuid": "431f711b-2f0d-4279-956b-76dddb933003",
+      "DisplayName": "Structure",
+      "ColorIndex": 12
+    },
+    "5d472349-161e-420c-a289-b2263e95ab59": {
+      "ProjectGuid": "5d472349-161e-420c-a289-b2263e95ab59",
+      "DisplayName": "Eamplae02_HorseRacing",
+      "ColorIndex": 13
+    },
+    "121ccc0d-88ff-40ad-a74a-18fc764f35d4": {
+      "ProjectGuid": "121ccc0d-88ff-40ad-a74a-18fc764f35d4",
+      "DisplayName": "ClassInheritanceAndPolymorphism",
+      "ColorIndex": 14
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 15
 }

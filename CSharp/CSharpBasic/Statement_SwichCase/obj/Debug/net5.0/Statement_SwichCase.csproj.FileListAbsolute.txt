@@ -1,0 +1,16 @@
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Statement_SwichCase\bin\Debug\net5.0\Statement_SwichCase.exe
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Statement_SwichCase\bin\Debug\net5.0\Statement_SwichCase.deps.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Statement_SwichCase\bin\Debug\net5.0\Statement_SwichCase.runtimeconfig.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Statement_SwichCase\bin\Debug\net5.0\Statement_SwichCase.runtimeconfig.dev.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Statement_SwichCase\bin\Debug\net5.0\Statement_SwichCase.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Statement_SwichCase\bin\Debug\net5.0\ref\Statement_SwichCase.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Statement_SwichCase\bin\Debug\net5.0\Statement_SwichCase.pdb
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Statement_SwichCase\obj\Debug\net5.0\Statement_SwichCase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Statement_SwichCase\obj\Debug\net5.0\Statement_SwichCase.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Statement_SwichCase\obj\Debug\net5.0\Statement_SwichCase.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Statement_SwichCase\obj\Debug\net5.0\Statement_SwichCase.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Statement_SwichCase\obj\Debug\net5.0\Statement_SwichCase.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Statement_SwichCase\obj\Debug\net5.0\ref\Statement_SwichCase.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Statement_SwichCase\obj\Debug\net5.0\Statement_SwichCase.pdb
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Statement_SwichCase\obj\Debug\net5.0\Statement_SwichCase.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Statement_SwichCase\obj\Debug\net5.0\Statement_SwichCase.csproj.AssemblyReference.cache
