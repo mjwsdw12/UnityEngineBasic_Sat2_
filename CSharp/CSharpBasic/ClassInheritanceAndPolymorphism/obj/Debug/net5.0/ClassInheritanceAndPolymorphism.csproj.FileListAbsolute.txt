@@ -13,3 +13,4 @@ C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassIn
 C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\obj\Debug\net5.0\ref\ClassInheritanceAndPolymorphism.dll
 C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\obj\Debug\net5.0\ClassInheritanceAndPolymorphism.pdb
 C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\obj\Debug\net5.0\ClassInheritanceAndPolymorphism.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\ClassInheritanceAndPolymorphism\obj\Debug\net5.0\ClassInheritanceAndPolymorphism.csproj.AssemblyReference.cache

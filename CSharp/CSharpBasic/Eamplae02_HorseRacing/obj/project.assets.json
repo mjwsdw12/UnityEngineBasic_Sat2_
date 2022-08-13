@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\UnityEngineBasic_Sat2_\\CSharp\\CSharpBasic\\Eamplae02_HorseRacing\\Eamplae02_HorseRacing.csproj",
-      "projectName": "Eamplae02_HorseRacing",
-      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\UnityEngineBasic_Sat2_\\CSharp\\CSharpBasic\\Eamplae02_HorseRacing\\Eamplae02_HorseRacing.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\UnityEngineBasic_Sat2_\\CSharp\\CSharpBasic\\Eamplae02_HorseRacing\\Example02_HorseRacing.csproj",
+      "projectName": "Example02_HorseRacing",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\UnityEngineBasic_Sat2_\\CSharp\\CSharpBasic\\Eamplae02_HorseRacing\\Example02_HorseRacing.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\Documents\\GitHub\\UnityEngineBasic_Sat2_\\CSharp\\CSharpBasic\\Eamplae02_HorseRacing\\obj\\",
       "projectStyle": "PackageReference",

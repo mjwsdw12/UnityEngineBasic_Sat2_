@@ -51,8 +51,8 @@ namespace Structure
             PlayerStruct playerStruct = new PlayerStruct();
             playerStruct.stats = new Stats(2, 3, 4, 6);
 
-            PrintCombatScore(player);
-            PrintCombatScore(player);
+            PrintCombatScore(playerStruct);
+            PrintCombatScore(playerStruct);
         }
 
         public static void PrintCombatScore(Player player)

@@ -28,7 +28,7 @@
 //       상급오크 (이)가 휘둘렀다..!
 //       하급오크 (이)가 점프했다..!
 
-namespace Eample01_ClassObjectInstance
+namespace Example01_ClassObjectInstance
 {
     internal class Program
     {

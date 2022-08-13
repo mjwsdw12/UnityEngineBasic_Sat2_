@@ -1,0 +1,5 @@
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example05_MyHashtable\obj\Debug\net5.0\Example05_MyHashtable.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example05_MyHashtable\obj\Debug\net5.0\Example05_MyHashtable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example05_MyHashtable\obj\Debug\net5.0\Example05_MyHashtable.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example05_MyHashtable\obj\Debug\net5.0\Example05_MyHashtable.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example05_MyHashtable\obj\Debug\net5.0\Example05_MyHashtable.csproj.CoreCompileInputs.cache

@@ -12,7 +12,7 @@ using System.Threading;
 // 
 // 매초 달릴 때 마다 각 말들이 얼마나 거리를 이동했는지 콘솔창에 출력해줌
 // 경주가 끝나면 1,2,3,4,5 등 말의 이름을 등수 순서대로 콘솔창에 출력해줌
-namespace Eamplae02_HorseRacing
+namespace Example02_HorseRacing
 {
     internal class Program
     {

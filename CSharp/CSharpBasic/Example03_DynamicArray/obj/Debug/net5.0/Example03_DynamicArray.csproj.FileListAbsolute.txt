@@ -1,0 +1,16 @@
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example03_DynamicArray\bin\Debug\net5.0\Example03_DynamicArray.exe
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example03_DynamicArray\bin\Debug\net5.0\Example03_DynamicArray.deps.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example03_DynamicArray\bin\Debug\net5.0\Example03_DynamicArray.runtimeconfig.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example03_DynamicArray\bin\Debug\net5.0\Example03_DynamicArray.runtimeconfig.dev.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example03_DynamicArray\bin\Debug\net5.0\Example03_DynamicArray.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example03_DynamicArray\bin\Debug\net5.0\ref\Example03_DynamicArray.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example03_DynamicArray\bin\Debug\net5.0\Example03_DynamicArray.pdb
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example03_DynamicArray\obj\Debug\net5.0\Example03_DynamicArray.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example03_DynamicArray\obj\Debug\net5.0\Example03_DynamicArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example03_DynamicArray\obj\Debug\net5.0\Example03_DynamicArray.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example03_DynamicArray\obj\Debug\net5.0\Example03_DynamicArray.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example03_DynamicArray\obj\Debug\net5.0\Example03_DynamicArray.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example03_DynamicArray\obj\Debug\net5.0\Example03_DynamicArray.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example03_DynamicArray\obj\Debug\net5.0\ref\Example03_DynamicArray.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example03_DynamicArray\obj\Debug\net5.0\Example03_DynamicArray.pdb
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Example03_DynamicArray\obj\Debug\net5.0\Example03_DynamicArray.genruntimeconfig.cache

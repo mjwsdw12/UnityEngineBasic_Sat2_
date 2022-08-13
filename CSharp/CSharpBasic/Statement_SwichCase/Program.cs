@@ -122,7 +122,7 @@ namespace Statement_SwitchCase
                         makingToastState++;
                         break;
                     case MakingToastState.TranslateTostDish:
-                        Console.WriteLine("");
+                        Console.WriteLine("토스트 접시에 옮기기");
                         makingToastState = MakingToastState.TranslateTostDish;
                         toastComplete = true;
                         break;
