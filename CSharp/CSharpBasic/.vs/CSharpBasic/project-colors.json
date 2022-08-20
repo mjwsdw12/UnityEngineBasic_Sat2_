@@ -80,7 +80,37 @@
       "ProjectGuid": "121ccc0d-88ff-40ad-a74a-18fc764f35d4",
       "DisplayName": "ClassInheritanceAndPolymorphism",
       "ColorIndex": 14
+    },
+    "d09b8fec-bbb0-4fda-8b21-6fc47ba64e0a": {
+      "ProjectGuid": "d09b8fec-bbb0-4fda-8b21-6fc47ba64e0a",
+      "DisplayName": "Example06_RollADice",
+      "ColorIndex": 15
+    },
+    "314dcec2-99e9-4da1-b328-4a334c92d168": {
+      "ProjectGuid": "314dcec2-99e9-4da1-b328-4a334c92d168",
+      "DisplayName": "Example05_MyHashtable",
+      "ColorIndex": 0
+    },
+    "9a13a029-9d38-4544-a5ef-3e72feb048e8": {
+      "ProjectGuid": "9a13a029-9d38-4544-a5ef-3e72feb048e8",
+      "DisplayName": "Example04_MyLinkedList",
+      "ColorIndex": 1
+    },
+    "9ccadf40-407d-4c7b-b8c2-9df0646707fe": {
+      "ProjectGuid": "9ccadf40-407d-4c7b-b8c2-9df0646707fe",
+      "DisplayName": "Example03_DynamicArray",
+      "ColorIndex": 2
+    },
+    "61073f82-cab6-4e13-be91-6bc4d1765035": {
+      "ProjectGuid": "61073f82-cab6-4e13-be91-6bc4d1765035",
+      "DisplayName": "Collections",
+      "ColorIndex": 3
+    },
+    "0f4d33ca-6f3c-41cc-952c-28c26f266476": {
+      "ProjectGuid": "0f4d33ca-6f3c-41cc-952c-28c26f266476",
+      "DisplayName": "Delegate",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 15
+  "NextColorIndex": 5
 }

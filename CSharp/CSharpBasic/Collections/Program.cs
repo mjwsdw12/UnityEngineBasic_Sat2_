@@ -43,6 +43,14 @@ namespace Collections
             list.Find(x => x == 1);
             list.FindIndex(x => x == 1);
             // Console.WriteLine(list[0]);
+            for (int i = 0; i <list.Count; i++)
+            {
+                Console.WriteLine(list[i]);
+            }
+            foreach (int item in list)
+            {
+                Console.WriteLine(item);
+            }
 
             // Linked List
             // c# 에서 LinkedList 는 doubly-linkedList

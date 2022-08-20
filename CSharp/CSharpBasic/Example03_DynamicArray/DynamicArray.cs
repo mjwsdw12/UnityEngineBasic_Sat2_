@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +7,22 @@ using System.Threading.Tasks;
 
 namespace Example03_DynamicArray
 {
-    internal class DynamicArray<T>
+    internal class DynamicArray<T> : IEnumerable<T>
     {
         private const int DEFAULT_SIZE = 1;
         private T[] _data = new T[DEFAULT_SIZE];
+
+        public T this[int index]
+        {
+            get
+            {
+                return _data[index];
+            }
+            set
+            {
+                _data[index] = value;
+            }
+        }
 
         public int Count; // 실제 데이터 개수
 
@@ -73,6 +86,58 @@ namespace Example03_DynamicArray
         public bool Remove(T item)
         {
             return RemoveAt(Findindex(item));
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            return new DynamicArrayEnum<T>(_data);
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class DynamicArrayEnum<T> : IEnumerator<T>
+    {
+        private readonly T[] _data;
+        private int _index = -1;
+        public T Current
+        {
+            get
+            {
+                try
+                {
+                    return _data[_index];
+                }
+                catch
+                {
+                    throw new InvalidCastException();
+                }
+            }
+        }
+
+        object IEnumerator.Current{get => Current; }
+
+
+        public DynamicArrayEnum(T[] data)
+            => _data = data;
+
+        public void Dispose()
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool MoveNext()
+        {
+            _index++;
+            return (_index >= 0) && (_index < _data.Length);
+        }
+
+        public void Reset()
+        {
+            _index = -1;
         }
     }
 }
