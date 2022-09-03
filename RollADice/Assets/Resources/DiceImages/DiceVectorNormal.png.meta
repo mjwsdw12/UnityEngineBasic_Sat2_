@@ -1,0 +1,872 @@
+fileFormatVersion: 2
+guid: 93da4ad298114b0469a27eadd837e50d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8493299474940345846
+    second: DiceVectorNormal_0
+  - first:
+      213: -8669664444835212704
+    second: DiceVectorNormal_1
+  - first:
+      213: -4999805140861712982
+    second: DiceVectorNormal_2
+  - first:
+      213: 2656235868413507057
+    second: DiceVectorNormal_3
+  - first:
+      213: -4521721087184401138
+    second: DiceVectorNormal_4
+  - first:
+      213: 470585417842111191
+    second: DiceVectorNormal_5
+  - first:
+      213: -8246560724647606113
+    second: DiceVectorNormal_6
+  - first:
+      213: 400744924511224601
+    second: DiceVectorNormal_7
+  - first:
+      213: 5238866546820104813
+    second: DiceVectorNormal_8
+  - first:
+      213: -8452581988438758813
+    second: DiceVectorNormal_9
+  - first:
+      213: 6038628637358077130
+    second: DiceVectorNormal_10
+  - first:
+      213: 3773090250238692249
+    second: DiceVectorNormal_11
+  - first:
+      213: -9196084677526731759
+    second: DiceVectorNormal_12
+  - first:
+      213: -3819523753339884420
+    second: DiceVectorNormal_13
+  - first:
+      213: 4112671666366782253
+    second: DiceVectorNormal_14
+  - first:
+      213: -4501230216850387814
+    second: DiceVectorNormal_15
+  - first:
+      213: 8756221258000818406
+    second: DiceVectorNormal_16
+  - first:
+      213: 7697323185822413888
+    second: DiceVectorNormal_17
+  - first:
+      213: 1804586731131668921
+    second: DiceVectorNormal_18
+  - first:
+      213: -6122666779688165633
+    second: DiceVectorNormal_19
+  - first:
+      213: 2949485912627137898
+    second: DiceVectorNormal_20
+  - first:
+      213: -2649414415167802198
+    second: DiceVectorNormal_21
+  - first:
+      213: 3777321747770741718
+    second: DiceVectorNormal_22
+  - first:
+      213: -4048892998202125793
+    second: DiceVectorNormal_23
+  - first:
+      213: 6372891826347804356
+    second: DiceVectorNormal_24
+  - first:
+      213: 1084840535429372664
+    second: DiceVectorNormal_25
+  - first:
+      213: -1122172855847126074
+    second: DiceVectorNormal_26
+  - first:
+      213: 3661377207224975061
+    second: DiceVectorNormal_27
+  - first:
+      213: -6936836567162609137
+    second: DiceVectorNormal_28
+  - first:
+      213: 2491541235288753480
+    second: DiceVectorNormal_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DiceVectorNormal_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 666.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdb4de7fd24ed570800000000000000
+      internalID: 8493299474940345846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 666.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06253cb0f1a2fa780800000000000000
+      internalID: -8669664444835212704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_2
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 666.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa504c8e6bf1d9ab0800000000000000
+      internalID: -4999805140861712982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_3
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 666.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f53070f278dcd420800000000000000
+      internalID: 2656235868413507057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_4
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 666.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d0bf8d0ae9f31c0800000000000000
+      internalID: -4521721087184401138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_5
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 666.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d235fab1fad78600800000000000000
+      internalID: 470585417842111191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9801bc86b45e8d80800000000000000
+      internalID: -8246560724647606113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_7
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 500.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9134807b26bbf8500800000000000000
+      internalID: 400744924511224601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_8
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 500.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62c3ec1e5134b840800000000000000
+      internalID: 5238866546820104813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_9
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 500.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a2e38177562ba80800000000000000
+      internalID: -8452581988438758813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_10
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 500.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4ba3c60c48dc350800000000000000
+      internalID: 6038628637358077130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_11
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 500.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b87f68795bc5430800000000000000
+      internalID: 3773090250238692249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1144b9f65b1f06080800000000000000
+      internalID: -9196084677526731759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_13
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 334.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c620f02635efac0800000000000000
+      internalID: -3819523753339884420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_14
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 334.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b1b973715231930800000000000000
+      internalID: 4112671666366782253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_15
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 334.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cc06067fa6881c0800000000000000
+      internalID: -4501230216850387814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_16
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 334.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0ecd977d8548970800000000000000
+      internalID: 8756221258000818406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_17
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 334.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044b254c7a262da60800000000000000
+      internalID: 7697323185822413888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b98c73221e2b0910800000000000000
+      internalID: 1804586731131668921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_19
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 168.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe1a9ec00be70ba0800000000000000
+      internalID: -6122666779688165633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_20
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 168.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dc82c7fcdaee820800000000000000
+      internalID: 2949485912627137898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_21
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 168.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4bf1960a36b3bd0800000000000000
+      internalID: -2649414415167802198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_22
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 168.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d39b32dd1ebb6430800000000000000
+      internalID: 3777321747770741718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_23
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 168.4
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12989425417fc7c0800000000000000
+      internalID: -4048892998202125793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.399994
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6837dd95f017850800000000000000
+      internalID: 6372891826347804356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_25
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2.399994
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa563028b02e0f00800000000000000
+      internalID: 1084840535429372664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_26
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 2.399994
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb75aeabbd3d60f0800000000000000
+      internalID: -1122172855847126074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_27
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2.399994
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de3b51db23dfc230800000000000000
+      internalID: 3661377207224975061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_28
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 2.399994
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02255525e76bbf90800000000000000
+      internalID: -6936836567162609137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DiceVectorNormal_29
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 2.399994
+        width: 166.66667
+        height: 166.6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845cf908d8bb39220800000000000000
+      internalID: 2491541235288753480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DiceVectorNormal_5: 470585417842111191
+      DiceVectorNormal_14: 4112671666366782253
+      DiceVectorNormal_18: 1804586731131668921
+      DiceVectorNormal_21: -2649414415167802198
+      DiceVectorNormal_0: 8493299474940345846
+      DiceVectorNormal_23: -4048892998202125793
+      DiceVectorNormal_29: 2491541235288753480
+      DiceVectorNormal_13: -3819523753339884420
+      DiceVectorNormal_4: -4521721087184401138
+      DiceVectorNormal_6: -8246560724647606113
+      DiceVectorNormal_19: -6122666779688165633
+      DiceVectorNormal_10: 6038628637358077130
+      DiceVectorNormal_28: -6936836567162609137
+      DiceVectorNormal_1: -8669664444835212704
+      DiceVectorNormal_25: 1084840535429372664
+      DiceVectorNormal_22: 3777321747770741718
+      DiceVectorNormal_20: 2949485912627137898
+      DiceVectorNormal_11: 3773090250238692249
+      DiceVectorNormal_26: -1122172855847126074
+      DiceVectorNormal_2: -4999805140861712982
+      DiceVectorNormal_24: 6372891826347804356
+      DiceVectorNormal_7: 400744924511224601
+      DiceVectorNormal_9: -8452581988438758813
+      DiceVectorNormal_15: -4501230216850387814
+      DiceVectorNormal_16: 8756221258000818406
+      DiceVectorNormal_17: 7697323185822413888
+      DiceVectorNormal_12: -9196084677526731759
+      DiceVectorNormal_3: 2656235868413507057
+      DiceVectorNormal_27: 3661377207224975061
+      DiceVectorNormal_8: 5238866546820104813
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
