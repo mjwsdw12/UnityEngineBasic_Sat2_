@@ -11,18 +11,26 @@ public class SongSelector : MonoBehaviour
     public string SelectedSongName;
     public VideoClip Clip;
     public SongData Data;
+    public bool IsDataLoaded => Data != null;
+
     public void Select(string songName)
     {
         SelectedSongName = songName;
     }
     
+    /// <summary>
+    /// Json 노래 데이터와 비디오클립을 로드
+    /// </summary>
+    /// <returns></returns>
     public bool TryLoadSelectedSongData()
     {
         bool isLoaded = false;
 
+        // 선택된 노래가 있는지 체크
         if (string.IsNullOrEmpty(SelectedSongName))
             return false;
 
+        // 노래 데이터 & 비디오클립 로드시 예외 잡기 시도
         try
         {
             Clip = Resources.Load<VideoClip>($"VideoClips/{SelectedSongName}");
