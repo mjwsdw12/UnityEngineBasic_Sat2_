@@ -20,7 +20,7 @@ public class StateJump : StateBase
     {
 
         Current = IState.Commands.Prepare;
-        Machine.IsDirectionChanagable = true;
+        Machine.IsDirectionChangable = true;
         Machine.IsMovable = false;
 
         _groundDetector.StopIgnoringGround();

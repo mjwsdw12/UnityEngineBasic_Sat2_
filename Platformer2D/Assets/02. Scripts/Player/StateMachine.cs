@@ -14,6 +14,9 @@ public class StateMachine : MonoBehaviour
         Fall,
         Attack,
         Crouch,
+        EdgeGrab,
+        LadderUp,
+        LadderDown,
         EOF
     }
 
@@ -26,7 +29,7 @@ public class StateMachine : MonoBehaviour
     private float _v => Input.GetAxis("Vertical");
     private Vector2 _move;
     public bool IsMovable { get; set; }
-    public bool IsDirectionChanagable { get; set; }
+    public bool IsDirectionChangable { get; set; }
     // -1 : left ,  1 : right
     private int _direction;
     public int Direction
@@ -51,9 +54,22 @@ public class StateMachine : MonoBehaviour
     }
     [SerializeField] private int _directionInit;
 
+    public void ForceChangeState(StateType newStateType)
+    {
+        _currentState.ForceStop();              // 기존 상태 중단
+        _currentState = _states[newStateType];  // 상태 갱신
+        _currentState.Execute();                // 갱신된 상태 실행
+        Current = newStateType;
+    }
+
     public void StopMove()
     {
         _move.x = 0.0f;
+    }
+
+    public void SetMove(Vector2 move)
+    {
+        _move = move;
     }
 
     private void Awake()
@@ -71,7 +87,7 @@ public class StateMachine : MonoBehaviour
         _currentState = _states[StateType.Idle];
         Current = StateType.Idle;
 
-        IsDirectionChanagable = true;
+        IsDirectionChangable = true;
         IsMovable = true;
     }
 
@@ -112,7 +128,7 @@ public class StateMachine : MonoBehaviour
     {
         bool isStateChanged = false;
 
-        if (IsDirectionChanagable)
+        if (IsDirectionChangable)
         {
             if (_h < -0.1f)
                 Direction = Constants.DIRECTION_LEFT;
@@ -140,6 +156,8 @@ public class StateMachine : MonoBehaviour
                 isStateChanged = ChangeState(StateType.Crouch);
             else if (Input.GetKey(KeyCode.A))
                 isStateChanged = ChangeState(StateType.Attack);
+            else if (Input.GetKey(KeyCode.UpArrow))
+                isStateChanged = ChangeState(StateType.EdgeGrab);
         }
 
     }

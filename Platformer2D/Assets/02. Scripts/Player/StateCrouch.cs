@@ -22,7 +22,7 @@ public class StateCrouch : StateBase
     public override void Execute()
     {
         Current = IState.Commands.Prepare;
-        Machine.IsDirectionChanagable = true;
+        Machine.IsDirectionChangable = true;
         Machine.IsMovable = false;
         Machine.StopMove();
         _col.offset = _colOffsetCrouch;

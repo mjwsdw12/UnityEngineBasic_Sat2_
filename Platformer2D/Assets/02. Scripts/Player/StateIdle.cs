@@ -10,7 +10,7 @@
     public override void Execute()
     {
         Current = IState.Commands.Prepare;
-        Machine.IsDirectionChanagable = true;
+        Machine.IsDirectionChangable = true;
         Machine.IsMovable = true;
     }
 
