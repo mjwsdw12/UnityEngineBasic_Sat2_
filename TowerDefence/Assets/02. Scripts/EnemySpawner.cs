@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Build;
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
@@ -11,17 +12,29 @@ public class EnemySpawner : MonoBehaviour
     private List<float[]> _delayTimersList = new List<float[]>();
     private List<float[]> _termTimerList = new List<float[]>();
     private List<int[]> _counterList = new List<int[]>();
+
+    [SerializeField] private GameObject _skipButtonPrefab;
+    private List<GameObject> _skipButtons = new List<GameObject>();
+    private int _currentStage;
+    
+    public void SpawnNext()
+    {
+        _currentStage++;
+        StartSpawn(_currentStage);
+    }
+
     public void StartSpawn(int stage)
     {
+        // 소환하려는 스테이지가 유효한지 / 이미 소환중인지 체크
         if ((stage < 1 || stage > Data.StagesDataList.Count) ||
             _stageSpawnedList.Contains(stage))
             return;
 
         _stageSpawnedList.Add(stage);
-        StageData stageDate = Data.StagesDataList[stage - 1];
+        StageData stageDate = Data.StagesDataList[stage - 1]; // 레벨 데이터에서 해당 스테이지 데이터 참조
         int length = Data.StagesDataList[stage - 1].SpawnDataList.Count;
 
-        _stageDataList.Add(stageDate);
+        _stageDataList.Add(stageDate); // 현재 소환중인 스테이지 데이터 리스트 등록
         float[] tmpDelayTimers = new float[length];
         float[] tmpTermTimers = new float[length];
         int[] tmpCounters = new int[length];
@@ -38,11 +51,23 @@ public class EnemySpawner : MonoBehaviour
         _counterList.Add(tmpCounters);
     }
 
+
+    private void Start()
+    {
+        CreateSkipButtons();
+        Pathfinder.SetUpMap();
+        RegisterPoolElements();
+    }
+
     private void Update()
     {
+        // 역순으로 for문을 진행하는 이유는 특정 스테이지 소환 종료시 리스트에서 해당 스테이지 데이터를 제거해야기 때문
+
+        // 소환중인 스테이지 데이터를 순회
         for (int i = _stageDataList.Count -1; i >= 0; i--)
         {
             bool finished = true;
+            // 스테이지에서 소환해야하는 각 적들에 대한 데이터들을 순회
             for(int j = 0; j < _stageDataList[i].SpawnDataList.Count; j++)
             {
                 // 소환할 것이 있다면
@@ -56,9 +81,11 @@ public class EnemySpawner : MonoBehaviour
                         // 소환 주기 타이머 종료되었으면
                         if(_termTimerList[i][j] <= 0)
                         {
-                            GameObject go = Instantiate(_stageDataList[i].SpawnDataList[j].Prefab,
-                                                        Paths.Instance.StartPointList[_stageDataList[i].SpawnDataList[j].SpawnPointIndex].position + _stageDataList[i].SpawnDataList[j].Prefab.transform.position + _offset,
-                                                        Quaternion.identity);
+                            GameObject go = 
+                                ObjectPool.Instance.Spawn(_stageDataList[i].SpawnDataList[j].Prefab.name,
+                                                          Paths.Instance.StartPointList[_stageDataList[i].SpawnDataList[j].SpawnPointIndex].position + _stageDataList[i].SpawnDataList[j].Prefab.transform.position + _offset);
+
+                            go.GetComponent<Enemy>().OnDie += () => ObjectPool.Instance.Return(go);
 
                             go.GetComponent<EnemyMove>().SetUp(Paths.Instance.StartPointList[_stageDataList[i].SpawnDataList[j].SpawnPointIndex],
                                                                Paths.Instance.EndPointList[_stageDataList[i].SpawnDataList[j].GoalPointIndex]);
@@ -85,8 +112,61 @@ public class EnemySpawner : MonoBehaviour
                 _delayTimersList.RemoveAt(i);
                 _termTimerList.RemoveAt(i);
                 _counterList.RemoveAt(i);
+
+                if(_currentStage < Data.StagesDataList.Count)
+                {
+                    ActiveSkipButtons();
+                }
             }
 
+        }
+    }
+
+    private void RegisterPoolElements()
+    {
+        for (int i = 0; i < Data.StagesDataList.Count; i++)
+        {
+            for (int j = 0; j < Data.StagesDataList[i].SpawnDataList.Count; j++)
+            {
+                ObjectPool.Instance.AddElement(new ObjectPoolElement()
+                {
+                    Name = Data.StagesDataList[i].SpawnDataList[j].Prefab.name,
+                    Prefab = Data.StagesDataList[i].SpawnDataList[j].Prefab,
+                    Num = Data.StagesDataList[i].SpawnDataList[j].Num
+                });
+            }
+        }
+        ObjectPool.Instance.InstantiateAllElements();
+    }
+
+    private void CreateSkipButtons()
+    {
+        for (int i = 0; i < Paths.Instance.StartPointList.Count; i++)
+        {
+            GameObject go = Instantiate(_skipButtonPrefab);
+            go.transform.position = Paths.Instance.StartPointList[i].transform.position + Vector3.up;
+            _skipButtons.Add(go);
+            go.GetComponentInChildren<SkipButton>().AddListener(() =>
+            {
+                SpawnNext();
+                DeactiveSkipButtons();
+            });
+        }
+    }
+
+    private void ActiveSkipButtons()
+    {
+        foreach (var button in _skipButtons)
+        {
+            button.SetActive(true);
+        }
+    }
+
+    private void DeactiveSkipButtons()
+    {
+        foreach (var button in _skipButtons)
+        {
+            button.SetActive(false);
         }
     }
 }

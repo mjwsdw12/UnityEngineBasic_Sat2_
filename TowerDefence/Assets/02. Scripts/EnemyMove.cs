@@ -19,7 +19,7 @@ public class EnemyMove : MonoBehaviour
     public void SetUp(Transform start, Transform end)
     {
         _pathfinder.TryFindOptimizedPath(start, end, out _path);
-        _nextPoint = _path[0];
+        _nextPoint = _path[1];
     }
 
     private void Awake()
