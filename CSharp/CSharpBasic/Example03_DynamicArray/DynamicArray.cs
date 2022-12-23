@@ -25,7 +25,7 @@ namespace Example03_DynamicArray
         }
 
         public int Count; // 실제 데이터 개수
-
+        
         // 프로퍼티
         // set / get 접근자를 멤버로 가질 수 있는 필드
         public int Capacity
@@ -58,11 +58,11 @@ namespace Example03_DynamicArray
 
         // 탐색 알고리즘
         // O(N)
-        public int Findindex(T item)
+        public int FindIndex(T item)
         {
-            for(int i = 0;i < Count; i++)
+            for (int i = 0; i < Count; i++)
             {
-                if (Comparer<T>.Default.Compare(_data[i], item)== 0)
+                if (Comparer<T>.Default.Compare(_data[i], item) == 0)
                     return i;
             }
             return -1;
@@ -70,7 +70,7 @@ namespace Example03_DynamicArray
 
         // 삭제 알고리즘
         // O(N)
-        public bool RemoveAt (int index)
+        public bool RemoveAt(int index)
         {
             if (index < 0 || index >= Count - 1)
                 return false;
@@ -85,7 +85,7 @@ namespace Example03_DynamicArray
         }
         public bool Remove(T item)
         {
-            return RemoveAt(Findindex(item));
+            return RemoveAt(FindIndex(item));
         }
 
         public IEnumerator<T> GetEnumerator()
@@ -113,12 +113,12 @@ namespace Example03_DynamicArray
                 }
                 catch
                 {
-                    throw new InvalidCastException();
+                    throw new InvalidOperationException();
                 }
             }
         }
 
-        object IEnumerator.Current{get => Current; }
+        object IEnumerator.Current { get => Current; }
 
 
         public DynamicArrayEnum(T[] data)

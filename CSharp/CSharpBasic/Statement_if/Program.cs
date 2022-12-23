@@ -1,18 +1,18 @@
 ﻿using System;
 
-namespace Statement_if
+namespace Statement_If
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            bool condition1 = true;
-            bool condition2 = false;
+            bool condition1 = false;
+            bool condition2 = true;
             bool condition3 = false;
 
             //if (조건)
             //{
-            //    조건이 참일때 실행할 내용
+            //    조건이 참일떄 실행할 내용
             //}
             if (condition1)
             {

@@ -6,11 +6,11 @@ namespace Array2Dimension
     {
         static int[,] map = new int[5, 5]
         {
-            {0, 0, 0, 0, 1 },
-            {0, 1, 1, 1, 1 },
-            {0, 0, 0, 1, 1 },
-            {1, 1, 0, 0, 0 },
-            {0, 1, 1, 0, 0 }
+            { 0, 0, 0, 0, 1 },
+            { 0, 1, 1, 1, 1 },
+            { 0, 0, 0, 1, 1 },
+            { 1, 1, 0, 0, 0 },
+            { 0, 1, 1, 0, 0 }
         };
         static void Main(string[] args)
         {
@@ -19,7 +19,7 @@ namespace Array2Dimension
 
             while (true)
             {
-                Console.WriteLine($"플레이어 이동 방향을 입력하세요 : Left/ Right/ Up/ Down");
+                Console.WriteLine($"플레이어 이동 방향을 입력하세요 : Left / Right / Up / Down");
                 string input = Console.ReadLine();
                 if (input.Equals("Left"))
                 {
@@ -43,14 +43,14 @@ namespace Array2Dimension
                 }
                 else
                 {
-                    Console.WriteLine("잘못된 입력입니다. Left/ Right/ Up/ Down 중에 하나 입력 하세요");
+                    Console.WriteLine("잘못된 입력입니다. Left / Right / Up / Down 중에 하나 입력 하세요");
                 }
             }
 
             //int[][] testArr = new int[3][];
             //Console.WriteLine(testArr[0][0]);
-        }  
-        
+        }
+
         static void DisplayMap()
         {
             for (int i = 0; i < map.GetLength(0); i++)
@@ -61,7 +61,6 @@ namespace Array2Dimension
                 }
                 Console.WriteLine();
             }
-            
         }
     }
 
@@ -98,7 +97,7 @@ namespace Array2Dimension
 
         public void MoveRight(int[,] map)
         {
-            if (_x + 1 > map.GetLength(1))
+            if (_x + 1 > map.GetLength(1) - 1)
             {
                 Console.WriteLine($"플레이어 오른쪽 이동 실패. (맵의 경계입니다)");
             }
@@ -117,7 +116,7 @@ namespace Array2Dimension
 
         public void MoveDown(int[,] map)
         {
-            if (_y + 1 < 0)
+            if (_y + 1 > map.GetLength(0) - 1)
             {
                 Console.WriteLine($"플레이어 아래쪽 이동 실패. (맵의 경계입니다)");
             }

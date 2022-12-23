@@ -1,0 +1,16 @@
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\HorseRacing\bin\Debug\net5.0\Example02_HorseRacing.exe
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\HorseRacing\bin\Debug\net5.0\Example02_HorseRacing.deps.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\HorseRacing\bin\Debug\net5.0\Example02_HorseRacing.runtimeconfig.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\HorseRacing\bin\Debug\net5.0\Example02_HorseRacing.runtimeconfig.dev.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\HorseRacing\bin\Debug\net5.0\Example02_HorseRacing.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\HorseRacing\bin\Debug\net5.0\ref\Example02_HorseRacing.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\HorseRacing\bin\Debug\net5.0\Example02_HorseRacing.pdb
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\HorseRacing\obj\Debug\net5.0\Example02_HorseRacing.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\HorseRacing\obj\Debug\net5.0\Example02_HorseRacing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\HorseRacing\obj\Debug\net5.0\Example02_HorseRacing.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\HorseRacing\obj\Debug\net5.0\Example02_HorseRacing.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\HorseRacing\obj\Debug\net5.0\Example02_HorseRacing.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\HorseRacing\obj\Debug\net5.0\Example02_HorseRacing.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\HorseRacing\obj\Debug\net5.0\ref\Example02_HorseRacing.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\HorseRacing\obj\Debug\net5.0\Example02_HorseRacing.pdb
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\HorseRacing\obj\Debug\net5.0\Example02_HorseRacing.genruntimeconfig.cache

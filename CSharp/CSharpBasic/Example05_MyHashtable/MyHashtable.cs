@@ -17,7 +17,7 @@ namespace Example05_MyHashtable
         public void Add(T key, K value)
         {
             _tmpHash = Hash(key);
-            if(_bucket[_tmpHash] == null)
+            if (_bucket[_tmpHash] == null)
                 _bucket[_tmpHash] = new LinkedList<K>();
             _bucket[_tmpHash].AddLast(value);
         }
@@ -65,9 +65,9 @@ namespace Example05_MyHashtable
             return false;
         }
 
-        public bool Clear()
+        public void Clear()
         {
-            for(int i = 0; i < _bucket.Length; i++)
+            for (int i = 0; i < _bucket.Length; i++)
             {
                 if (_bucket[i] != null)
                 {
@@ -81,7 +81,7 @@ namespace Example05_MyHashtable
         {
             _tmpHash = 0;
             string tmpString = key.ToString();
-            for (int i = 0; i< tmpString.Length; i++)
+            for (int i = 0; i < tmpString.Length; i++)
             {
                 _tmpHash += tmpString[i];
             }

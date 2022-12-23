@@ -1,0 +1,16 @@
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Statement_SwitchCase\bin\Debug\net5.0\Statement_SwitchCase.exe
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Statement_SwitchCase\bin\Debug\net5.0\Statement_SwitchCase.deps.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Statement_SwitchCase\bin\Debug\net5.0\Statement_SwitchCase.runtimeconfig.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Statement_SwitchCase\bin\Debug\net5.0\Statement_SwitchCase.runtimeconfig.dev.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Statement_SwitchCase\bin\Debug\net5.0\Statement_SwitchCase.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Statement_SwitchCase\bin\Debug\net5.0\ref\Statement_SwitchCase.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Statement_SwitchCase\bin\Debug\net5.0\Statement_SwitchCase.pdb
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Statement_SwitchCase\obj\Debug\net5.0\Statement_SwitchCase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Statement_SwitchCase\obj\Debug\net5.0\Statement_SwitchCase.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Statement_SwitchCase\obj\Debug\net5.0\Statement_SwitchCase.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Statement_SwitchCase\obj\Debug\net5.0\Statement_SwitchCase.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Statement_SwitchCase\obj\Debug\net5.0\Statement_SwitchCase.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Statement_SwitchCase\obj\Debug\net5.0\ref\Statement_SwitchCase.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Statement_SwitchCase\obj\Debug\net5.0\Statement_SwitchCase.pdb
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Statement_SwitchCase\obj\Debug\net5.0\Statement_SwitchCase.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Statement_SwitchCase\obj\Debug\net5.0\Statement_SwitchCase.csproj.AssemblyReference.cache

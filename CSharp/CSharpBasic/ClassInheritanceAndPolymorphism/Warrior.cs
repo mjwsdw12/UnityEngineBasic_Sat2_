@@ -10,7 +10,7 @@ namespace ClassInheritanceAndPolymorphism
     {
         public void Smash()
         {
-            Console.WriteLine($"{nickName} (이)가 휘둘렀다.");
+            Console.WriteLine($"{nickName} (이)가 휘둘렀다");
         }
     }
 }

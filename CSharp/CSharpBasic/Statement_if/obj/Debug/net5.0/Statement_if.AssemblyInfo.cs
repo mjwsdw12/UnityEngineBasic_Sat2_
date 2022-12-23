@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Statement_if")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Statement_If")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Statement_if")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Statement_if")]
+[assembly: System.Reflection.AssemblyProductAttribute("Statement_If")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Statement_If")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment 클래스에서 생성되었습니다.

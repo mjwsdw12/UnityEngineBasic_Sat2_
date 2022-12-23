@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &457030781796639284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4548858134405091741}
+  - component: {fileID: 7577447102788847917}
+  m_Layer: 0
+  m_Name: TowerAssets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4548858134405091741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457030781796639284}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.014353, y: 1.4255185, z: -2.657638}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7577447102788847917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457030781796639284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31bcc5e7482742f41970e8bd965e85cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _towers:
+  - {fileID: 2016897885, guid: c661ab6f29156124ba536a1a92c9fd80, type: 3}
+  - {fileID: 2016897885, guid: ffaa61f67e891474a876f72308414ace, type: 3}
+  - {fileID: 2016897885, guid: bf1e0add95c3d1c45a4147dd34b10da6, type: 3}
+  - {fileID: 419665640695108594, guid: 8c4d7899391d08541893307ad0b960bd, type: 3}
+  - {fileID: 419665640695108594, guid: d23be89bd515baa489f905dd6528b545, type: 3}
+  - {fileID: 419665640695108594, guid: 99bb61a53fce2eb45ba411e0df678f5d, type: 3}
+  - {fileID: 2531937935773305637, guid: 2f80b98772a22794081f1aebcaea6a0b, type: 3}
+  - {fileID: 2531937935773305637, guid: af15a51befb48f743911975b3754bcb1, type: 3}
+  - {fileID: 2531937935773305637, guid: 953e0ac37381da844b1186154913fe19, type: 3}
+  _previewTowers:
+  - {fileID: 2042990384713707260, guid: ef8c811d858d77d48b43643a14ce62f4, type: 3}
+  - {fileID: 2042990384713707260, guid: d77de3f6bfe846c4c8e63f9a92699704, type: 3}
+  - {fileID: 2042990384713707260, guid: cab4af03e9e88034592d625ff867c7c5, type: 3}

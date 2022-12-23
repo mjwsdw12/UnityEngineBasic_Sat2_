@@ -12,14 +12,14 @@ TagManager:
   - Water
   - UI
   - 
+  - Node
+  - Path
+  - 
+  - Tower
+  - TowerProjectile
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Enemy
   - 
   - 
   - 

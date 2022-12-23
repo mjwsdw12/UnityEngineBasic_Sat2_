@@ -13,13 +13,15 @@ TagManager:
   - UI
   - 
   - Ground
-  - 
+  - Ladder
   - 
   - Player
   - PlayerCollision
   - 
   - 
   - 
+  - Enemy
+  - EnemyCollision
   - 
   - 
   - 
@@ -28,16 +30,32 @@ TagManager:
   - 
   - 
   - 
+  - Popup
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Portal
+  - 3DObject
   - 
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 4082930571
+    locked: 0
+  - name: Ground
+    uniqueID: 3846120559
+    locked: 0
+  - name: Ladder
+    uniqueID: 2277327597
+    locked: 0
+  - name: Player
+    uniqueID: 1949405313
+    locked: 0
+  - name: Enemy
+    uniqueID: 2895784799
+    locked: 0
+  - name: DamagePopUp
+    uniqueID: 1466106291
     locked: 0

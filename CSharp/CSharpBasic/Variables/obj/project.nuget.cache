@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "o8d6ofK9/ZAF5XxgwDG6+rYN5PuYDY6N5y8NBd0JiamSzGe7+eKrTF1+28rQ5EX+5lQBeUn0Mn5dBHv8ZdZNPA==",
+  "dgSpecHash": "JTkWW1Kf23hI32r5NEfBDRdJ2g7a4Z0kxuc8q95lVygT3BxkVmSlw5QVKxrUbYdzFKyn0UguG/yGhFx4P3TtSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\UnityEngineBasic_Sat2_\\CSharp\\CSharpBasic\\Variables\\Variables.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\UnityEngineBasic_Sat2\\CSharp\\CSharpBasic\\Variables\\Variables.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

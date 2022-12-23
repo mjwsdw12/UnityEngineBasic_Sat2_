@@ -1,0 +1,15 @@
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Delegate\bin\Debug\net6.0\Delegate.exe
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Delegate\bin\Debug\net6.0\Delegate.deps.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Delegate\bin\Debug\net6.0\Delegate.runtimeconfig.json
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Delegate\bin\Debug\net6.0\Delegate.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Delegate\bin\Debug\net6.0\ref\Delegate.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Delegate\bin\Debug\net6.0\Delegate.pdb
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Delegate\obj\Debug\net6.0\Delegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Delegate\obj\Debug\net6.0\Delegate.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Delegate\obj\Debug\net6.0\Delegate.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Delegate\obj\Debug\net6.0\Delegate.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Delegate\obj\Debug\net6.0\Delegate.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Delegate\obj\Debug\net6.0\ref\Delegate.dll
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Delegate\obj\Debug\net6.0\Delegate.pdb
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Delegate\obj\Debug\net6.0\Delegate.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Delegate\obj\Debug\net6.0\Delegate.csproj.AssemblyReference.cache

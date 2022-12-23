@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Statement_if
-build_property.ProjectDir = C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\Statement_if\
+build_property.RootNamespace = Statement_If
+build_property.ProjectDir = C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\Statement_If\

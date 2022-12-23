@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Example02_HorseRacing/1.0.0": {
+        "runtime": {
+          "Example02_HorseRacing.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Example02_HorseRacing/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

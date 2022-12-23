@@ -25,7 +25,7 @@ namespace ClassInheritanceAndPolymorphism
 
         public void TwoLeggedWalk()
         {
-            Console.WriteLine($"{nickName} (이)가 이족보행했다.");
+            Console.WriteLine($"{nickName} (이)가 이족보행했다");
         }
 
         public override void Grow()

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "P9GuSTswE34z5EmAClkiTdHydKLB026q5jLfyieQBy1gTWieBP6s9+qUpShnwgkSnpBnEJ3f32NNjNseNuMSwA==",
+  "dgSpecHash": "XPnnyeZ7EiIbnd2VL/pQKCIJ5oOM7k2+7j4bMqaV+OJwITfvd6hUlaXdCOMbphN+Bez6TCACAnzjvu/+rSUs2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\UnityEngineBasic_Sat2_\\CSharp\\CSharpBasic\\Array2Dimension\\Array2Dimension.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\UnityEngineBasic_Sat2\\CSharp\\CSharpBasic\\Array2Dimension\\Array2Dimension.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -21,7 +21,7 @@ namespace Example04_MyLinkedList
     }
     internal class MyLinkedList<T>
     {
-        private Node<T> _first, _last, _tmp1, _tmp2;
+        private Node<T> _first, _last, _tmp1, tmp2;
 
         // 삽입 알고리즘
         // O(1)
@@ -71,7 +71,7 @@ namespace Example04_MyLinkedList
                 _first = _tmp1;
         }
 
-        public void AddAfier(Node<T> node, T value)
+        public void AddAfter(Node<T> node, T value)
         {
             if (node == null)
                 return;
@@ -80,7 +80,7 @@ namespace Example04_MyLinkedList
 
             if (node.next != null)
             {
-                node.next.next = _tmp1;
+                node.next.prev = _tmp1;
                 _tmp1.next = node.next;
             }
 
@@ -93,7 +93,7 @@ namespace Example04_MyLinkedList
 
         // 탐색 알고리즘
         // O(N)
-        public Node<T> Find(int value)
+        public Node<T> Find(T value)
         {
             _tmp1 = _first;
             while (_tmp1 != null)
@@ -105,14 +105,14 @@ namespace Example04_MyLinkedList
             return null;
         }
 
-        public Node<T> FindLast(int value)
+        public Node<T> FindLast(T value)
         {
             _tmp1 = _last;
             while (_tmp1 != null)
             {
                 if (Comparer<T>.Default.Compare(_tmp1.value, value) == 0)
                     return _tmp1;
-                _tmp1 = _tmp1.next;
+                _tmp1 = _tmp1.prev;
             }
             return null;
         }
@@ -126,7 +126,7 @@ namespace Example04_MyLinkedList
             {
                 if (_tmp1.prev != null)
                     _tmp1.prev.next = _tmp1.next;
-                if(_tmp1.next != null)
+                if (_tmp1.next != null)
                     _tmp1.next.prev = _tmp1.prev;
                 _tmp1.next = null;
                 _tmp1.prev = null;
@@ -135,7 +135,6 @@ namespace Example04_MyLinkedList
             }
             return false;
         }
-
         public bool RemoveLast(T value)
         {
             _tmp1 = FindLast(value);

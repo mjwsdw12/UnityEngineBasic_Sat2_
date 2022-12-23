@@ -6,17 +6,18 @@ using System.Threading.Tasks;
 
 namespace ClassInheritanceAndPolymorphism
 {
-    internal class Knight :Player
+    internal class Knight : Player 
     {
 
         public override void Attack()
         {
-            // base : 부모객체 참조 키워드
+            // base : 부모객체 참조키워드
+            //base.Attack();
             Console.WriteLine($"Knight {nickName} (이)가 공격했다");
         }
         public void Dash()
         {
-            Console.WriteLine($"{nickName} (이)가 돌진했다.");
+            Console.WriteLine($"{nickName} (이)가 돌진했다");
         }
     }
 }

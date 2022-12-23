@@ -13,7 +13,7 @@ namespace ClassInheritanceAndPolymorphism
         public float mass;
         public void Breath()
         {
-            Console.WriteLine($"{DNA} 형질을 가진 생명체가 숨을 쉰다");
+            Console.WriteLine($"{DNA} 형질을 가진 생명체가 숨을쉰다");
         }
 
         public abstract void Grow();

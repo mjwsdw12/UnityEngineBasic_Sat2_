@@ -1,5 +1,5 @@
-C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\FirstProject\obj\Debug\net5.0\FirstProject.csproj.AssemblyReference.cache
-C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\FirstProject\obj\Debug\net5.0\FirstProject.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\FirstProject\obj\Debug\net5.0\FirstProject.AssemblyInfoInputs.cache
-C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\FirstProject\obj\Debug\net5.0\FirstProject.AssemblyInfo.cs
-C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2_\CSharp\CSharpBasic\FirstProject\obj\Debug\net5.0\FirstProject.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\FirstProject\obj\Debug\net5.0\FirstProject.csproj.AssemblyReference.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\FirstProject\obj\Debug\net5.0\FirstProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\FirstProject\obj\Debug\net5.0\FirstProject.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\FirstProject\obj\Debug\net5.0\FirstProject.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\UnityEngineBasic_Sat2\CSharp\CSharpBasic\FirstProject\obj\Debug\net5.0\FirstProject.csproj.CoreCompileInputs.cache

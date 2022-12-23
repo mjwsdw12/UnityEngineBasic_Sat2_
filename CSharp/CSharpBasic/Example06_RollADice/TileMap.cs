@@ -19,7 +19,7 @@ namespace Example06_RollADice
                     TileInfo tileInfo_Star = new TileInfo_Star();
                     tileInfo_Star.index = i;
                     tileInfo_Star.name = "샛별";
-                    tileInfo_Star.description = "샛별을 흭득할 수 있는 칸입니다";
+                    tileInfo_Star.description = "샛별을 획득할 수 있는 칸입니다";
                     tiles.Add(i, tileInfo_Star);
                 }
                 else
@@ -36,6 +36,6 @@ namespace Example06_RollADice
         public bool TryGetTileInfo(int index, out TileInfo tileInfo)
         {
             return tiles.TryGetValue(index, out tileInfo);
-        }
+        }            
     }
 }
