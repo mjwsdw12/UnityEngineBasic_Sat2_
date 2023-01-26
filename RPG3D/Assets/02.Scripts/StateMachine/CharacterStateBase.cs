@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
-public class CharacterStateBase : IState
+
+public abstract class CharacterStateBase : IState
 {
     protected GameObject owner;
     protected Func<bool> condition;
     protected AnimatorWrapper animator;
+    protected Movement movement;
     public int id { get; set; }
 
     public int current { get; set; }
@@ -16,12 +18,14 @@ public class CharacterStateBase : IState
 
     public List<KeyValuePair<Func<bool>, int>> transitions { get; set; }
 
-    public CharacterStateBase(int id, GameObject owner, Func<bool> executeCondition)
+    public CharacterStateBase(int id, GameObject owner, Func<bool> executeCondition, List<KeyValuePair<Func<bool>, int>> transitions)
     {
         this.id = id;
         this.owner = owner;
         this.condition = executeCondition;
+        this.transitions = transitions;
         animator = owner.GetComponent<AnimatorWrapper>();
+        movement = owner.GetComponent<Movement>();
     }
 
 
@@ -30,7 +34,7 @@ public class CharacterStateBase : IState
         current = 0;
     }
 
-    public void Stop()
+    public virtual void Stop()
     {
     }
     public void MoveNext()
@@ -38,7 +42,7 @@ public class CharacterStateBase : IState
         current++;
     }
 
-    public int Update()
+    public virtual int Update()
     {
         int nextId = id;
 

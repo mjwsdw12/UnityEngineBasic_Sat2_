@@ -29,13 +29,17 @@ public abstract class CharacterStateMachine
 
         currentType = default(StateType);
         current = states[currentType];
+        current.Execute();
     }
 
     public abstract void InitStates();
 
     public void Update()
     {
-        current.Update();
+        if (ChangeState((StateType)current.Update()))
+        {
+            Debug.Log($"[StateMachine] : {owner}'s state has changed as {currentType}");
+        }
     }
 
     public bool ChangeState(StateType nextType)
@@ -47,6 +51,7 @@ public abstract class CharacterStateMachine
         {
             current.Stop();
             current = states[nextType];
+            current.Execute();
             currentType = nextType;
             return true;
         }
